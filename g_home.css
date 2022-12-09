@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(0, 119, 0);
+    width: 1473px;
+    padding: 23px;
+}
+
+.navlinks{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    color: white;
+    position: relative;
+    left: 62%;
+    margin-left: 25px;
+    border-radius: 4px;
+    transition: ease-in-out 0.30s;
+}
+
+.green-spn{
+    color: rgb(0, 101, 0);
+}
+
+#nav-h2{
+    font-family: sans-serif;
+    color: rgb(0, 145, 0);
+    padding: 8px 10px;
+    display: inline;
+    background-color: #fff;
+    position: relative;
+    bottom: 45px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.navlinks:hover{
+    color: rgb(0, 119, 0);
+    background-color: #fff;
+    border-radius: 4px;
+    transition: ease-in-out 0.30s;
+}
+
+#active{
+    color: rgb(0, 119, 0);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.green-content{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 25px;
+    background-color: rgb(0, 119, 0);
+}
+
+.content-h1{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    display: inline;
+    left: 30px;
+    top: 30px;
+}
+
+.para-content{
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 600px;
+    top: 50px;
+    left: 30px;
+}
+
+.image-leaf-content{
+    max-width: 400px;
+    position: relative;
+    left: 68%;
+    bottom: 360px;
+}
+
+.box2-h1{
+    color: rgb(0, 119, 0);
+    position: relative;    font-family: sans-serif;
+    position: relative;
+    display: inline;
+    left: 1180px;
+    top: 20px;
+}
+
+.para-box2{
+    color: rgb(0, 119, 0);
+    font-family: sans-serif;
+    position: relative;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 600px;
+    top: 50px;
+    left: 560px;
+}
+
+.spn-box2{
+    color: red;
+}
+
+.image-rrr-box{
+    max-width: 300px;
+    position: relative;
+    bottom: 300px;
+    left: 120px;
+}
+
+.footer-p{
+    background-color: rgb(0, 119, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.btn-box{
+    text-align: center;
+}
+  
+.btn-slide{
+    padding: 20px 40px; 
+    position: relative;
+    bottom: 200px;
+    color: rgb(0, 119, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+}
+
+.btn-slide:hover{
+    color: white;
+    background-color: rgb(0, 119, 0);
+}
